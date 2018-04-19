@@ -1,3 +1,6 @@
+apt install autoconf
+autoreconf -vfi
+
 cd /nginx/environments
 git clone https://github.com/openssl/openssl.git
 
