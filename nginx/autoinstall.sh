@@ -1,11 +1,13 @@
+mkdir /nginx/environments/openssl
 cd /nginx/environments/openssl
-rm -rf *
 git clone https://github.com/openssl/openssl.git
+
+mkdir /nginx/environments/zlib
 cd /nginx/environments/zlib
-rm -rf *
 git clone https://github.com/madler/zlib
+
+mkdir /nginx/temp
 cd /nginx/temp
-rm -rf *
 git clone https://github.com/nginx/nginx
 cd /nginx
 mv /nginx/temp/* /nginx/
