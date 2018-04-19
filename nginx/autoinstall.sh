@@ -1,12 +1,9 @@
-mkdir /nginx/environments
 cd /nginx/environments
 git clone https://github.com/openssl/openssl.git
 
-mkdir /nginx/environments
 cd /nginx/environments
 git clone https://github.com/madler/zlib
 
-mkdir /nginx
 cd /nginx
 git clone https://github.com/nginx/nginx
 cd /nginx
