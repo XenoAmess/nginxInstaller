@@ -22,7 +22,7 @@ cd /nginx/environments/geoip-api-c
 #make install
 ln -s /usr/local/lib/libGeoIP.so* /lib64/
 
-cp -r /nginx/environments/nginx/. /nginx/
+cp -r /nginx/environments/nginx/ /nginx/
 chmod 777 /nginx/environments/pcre-8.42/configure
 cd /nginx
 ./auto/configure --prefix=/nginx --conf-path=/nginx/nginx.conf --with-pcre=/nginx/environments/pcre-8.42 --with-zlib=/nginx/environments/zlib --with-http_ssl_module --with-openssl=/nginx/environments/openssl --with-http_geoip_module
