@@ -3,6 +3,7 @@ apt update
 apt install autoconf libtool libsysfs-dev libgeoip1 libgeoip-dev geoip-bin
 autoreconf -vfi
 
+mkdir /nginx/environments
 cd /nginx/environments
 git clone https://github.com/openssl/openssl
 git clone https://github.com/madler/zlib
